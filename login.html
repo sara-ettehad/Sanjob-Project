@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="/js/cookie.js"></script>
+</head>
+<body>
+    <div>
+        <div align="center"  class="container">
+            <img src="./img/acorn.png" style="width: 100px;">
+            <form action="../action.php" method="post" class="form-style">
+                <table align="center">
+                    <tr>
+                        <td colspan=2 align="center" style="color: black; font-size: 50px;" >
+                            Login 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <input class= "input-login" type="text"  placeholder="username" name="username" style="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <input class= "input-login" type="password" placeholder="password" name="password" style="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="login-" align="center">
+                            <input type="submit" value="Login" style="background-color: #d68955; border: none; padding: 10px 20px; margin-top: 20px; border-radius: 17px; font-size: 20px;">
+                            <input type="hidden" value="login" name="act" id="act">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <p style="text-align:center; color: #045204; font-size: 20px; " >Don’t have an account? <br>
+                <button type="button" class="san-button san-theme-d1 san-margin-bottom san-small" style="background-color: #d68955; border: none; padding: 10px 20px; margin-top: 10px; border-radius: 17px; font-size: 20px;">
+                    <i class="fa fa-login"></i>
+                    <a href="/signup/" style="text-decoration: none; color: black;">Sign up </a>
+                </button>
+            </p>
+        </div>
+    </div>
+
+    
+
+    <script type="text/javascript">
+        var user = getCookie("username");
+        if (user != "") {
+            document.getElementById("spanuser").textContent = user;
+        }
+    </script>
+
+</body>
+</html>

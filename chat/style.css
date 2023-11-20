@@ -1,0 +1,184 @@
+/* ChatPage container */
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0;
+    background-color: #EDE4D7;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+/* list area */
+
+.list-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-part-rows{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+/* Chat area */
+
+.edit-chat{
+    background: transparent;
+    border: none;
+    color: #EF823F;
+    font-size: large;
+}
+
+/* Chat header */
+
+.chat-part {
+    border-left: 1px solid #141313;
+    border-right: 1px solid #141313;
+    height: 100vh;
+    background-image: url("./img/sanjob.png");
+}
+
+.chat-part h3 {
+    margin: 0;
+    padding: 20px;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    list-style: none; 
+    padding: 0; 
+}
+
+
+.chats li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.chats img{
+    margin-top: 50px;
+}
+
+.chat-messages {
+    margin: 5px;
+    background-color: #6A7B47;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    overflow-y: auto;
+}
+
+.your-message {
+    margin: 5px;
+    background-color: #EF823F;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+.chats h4{
+    margin: 0;
+    color: #cbcaca;
+}
+
+.chats p{
+    margin: 0;
+}
+
+.chats span{
+    margin: 0;
+    color: #cbcaca;
+    font-size: x-small;
+}
+
+.chat-input-form {
+    background-color: transparent; /* Background color for the chat input */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+}
+
+.chat-input-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #EDE4D7;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 500px
+}
+
+.chat-input-form button {
+    width: 40px;
+    text-align: center;
+    padding: 13px 0px;
+    background-color: #6A7B47;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* member eara */
+.members{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #050505;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.members h3{
+    margin: 0px;
+    border-bottom: solid 1px #050505;
+
+}
+
+.members-add{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: -8px 0px -10px 45px;
+    color: #EF823F;
+}
+
+.members-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+/* media eara */
+.media-part {
+    background-color: transparent; /* Background color for the chat input */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.media-part h3{
+    padding: 20px;
+}

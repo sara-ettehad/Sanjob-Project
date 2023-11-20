@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="list-part">
+
+                <div class="list-part-rows">
+                    <button class="edit-chat">Edit</button>
+                    <h3>Chats</h3>
+                    <button class="add-chat"></button>
+                </div>
+
+                <hr>
+
+                <div class="list-part-rows">
+                    <img class="avatar-image" src="">
+                    <h4 class="avatar-name"></h4>
+                    <p class="avatar-title"></p>
+                    <div class="avatar-notify">
+                        <p>4</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="list-part-rows">
+                    <img class="avatar-image" src="">
+                    <h4 class="avatar-name"></h4>
+                    <p class="avatar-title"></p>
+                    <div class="avatar-notify">
+                        <p>1</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="list-part-rows">
+                    <img class="avatar-image" src="">
+                    <h4 class="avatar-name"></h4>
+                    <p class="avatar-title"></p>
+                </div>
+                
+                <hr>
+                
+            </div>
+
+            <div class="chat-part">
+
+                <h3 class="chat-header">Front-End developers</h3>
+                <hr>
+        
+                <ul class="chats">
+                    <li style="margin-left: 58px; margin-bottom: -15px;">
+                        <div class="chat-messages">
+                            <h4>Terisa</h4>
+                            <p>Terisa's first Incoming text</p>
+                            <span>10:30 AM</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="avatar-image" src="./img/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg">
+                        <div  class="chat-messages">
+                            <h4>Terisa</h4>
+                            <p>Terisa's second Incoming text</p>
+                            <span>10:30 AM</span>
+                        </div>
+                    </li>
+                    <li style="margin-left: 460px;">
+                        <div class="your-message">
+                            <h4>You</h4>
+                            <p>Your text</p>
+                            <span>10:30 AM</span>
+                        </div>
+                        <img class="avatar-image" src="./img/michael-dam-mEZ3PoFGs_k-unsplash.jpg">
+
+                    </li>
+                    <li>
+                        <img class="avatar-image" src="./img/gideon-hezekiah-1I3_xTAXTxo-unsplash.jpg">
+                        <div  class="chat-messages">
+                            <h4>Sara</h4>
+                            <p>Sara's Incoming text</p>
+                            <span>10:30 AM</span>
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+        
+                <form class="chat-input-form">
+                    <input type="text" class="chat-input" required placeholder="Type here, John..." />
+                    <button type="submit" class="button send-button"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+
+
+            <div class="media-part">
+
+                <div class="members">
+
+                    <div class="members-title">
+                        <h3>Members</h3>
+                    </div>
+
+                    <div class="members-add">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <p>Add Members</p>
+                    </div>
+                    <hr style="width:70%;text-align:center;">
+
+                    <div class="members-row">
+                        <img class="avatar-image" src="">
+                        <h4 class="avatar-name"></h4>
+                        <p class="avatar-title"></p>
+                        <p class="avatar-owner" style="font-size: smaller;">Owner</p>
+                    </div>
+
+                    <hr style="width:70%;text-align:center;">
+
+                    <div class="members-row">
+                        <img class="avatar-image" src="">
+                        <h4 class="avatar-name"></h4>
+                        <p class="avatar-title"></p>
+                    </div>
+
+                    <hr style="width:70%;text-align:center;">
+
+                    <div class="members-row">
+                        <img class="avatar-image" src="">
+                        <h4 class="avatar-name"></h4>
+                        <p class="avatar-title"></p>
+                    </div>
+
+                </div>
+
+                <div class="Media">
+
+                    <h1>Media</h1>
+                    <hr>
+
+                    <button>Photo</button>
+                    <button>Voice</button>
+                    <button>File</button>
+                    <button>Link</button>
+
+                    <div class="photos-list">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                        <img class="photos" src="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+
+        
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>

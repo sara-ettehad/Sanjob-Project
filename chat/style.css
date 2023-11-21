@@ -52,7 +52,22 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    max-height: 20px;
+    max-height: 50px; /* Set the maximum height */
+    overflow: hidden;
+}
+
+.avatar-name,
+.avatar-seen{
+    margin: 0; /* Remove default margins */
+}
+
+.avatar-owner{    
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    text-align: right;
+    max-height: 50px; 
+    overflow: hidden;
 }
 
 /* Chat area */
@@ -188,9 +203,9 @@ body{
 .members-row{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 10px;
+    align-items: left;
+    margin: 0px 30px;
+    width:80%
 }
 
 /* media eara */

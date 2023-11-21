@@ -28,11 +28,33 @@ body{
 }
 
 .avatar-image{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar-image img{
+    width: 50px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
+    border-radius: 50%; /* Create a circular shape */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    margin-right: 10px;
+}
+
+.avatar-image i{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: none;
 }
+
+.avatar-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-height: 20px;
+}
+
 /* Chat area */
 
 .edit-chat{

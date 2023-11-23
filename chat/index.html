@@ -5,51 +5,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Chat App</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
         <div class="container">
 
             <div class="list-part">
 
-                <div class="list-part-rows">
-                    <button class="edit-chat">Edit</button>
+                <div class="list-part-title">
+                    <button class="list-part-btn">Edit</button>
                     <h3>Chats</h3>
-                    <button class="add-chat"></button>
+                    <button class="list-part-btn"><i class="fa-regular fa-square-plus"></i></button>
                 </div>
 
-                <hr>
-
-                <div class="list-part-rows">
-                    <img class="avatar-image" src="">
-                    <h4 class="avatar-name"></h4>
-                    <p class="avatar-title"></p>
-                    <div class="avatar-notify">
-                        <p>4</p>
+                <div class="message-row">
+                    <div class="message">
+                        <div class="avatar-image">
+                            <img src="./img/blank-profile-picture-973460_640.jpg">
+                        </div>
+                        <div class="avatar-title" style="display: flex; align-items: left;">
+                            <h4 class="avatar-name">Front-End Group</h4>
+                            <p class="avatar-seen"style="font-size:small;">One new message</p>
+                        </div>
+                        
                     </div>
+                    <button class="notify-btn">1</button>
                 </div>
 
-                <hr>
+                <hr style="width:100%;text-align:center;">
 
-                <div class="list-part-rows">
-                    <img class="avatar-image" src="">
-                    <h4 class="avatar-name"></h4>
-                    <p class="avatar-title"></p>
-                    <div class="avatar-notify">
-                        <p>1</p>
+                <div class="message-row">
+                    <div class="message">
+                        <div class="avatar-image">
+                            <img src="./img/blank-profile-picture-973460_640.jpg">
+                        </div>
+                        <div class="avatar-title" style="display: flex; align-items: left;">
+                            <h4 class="avatar-name">John</h4>
+                            <p class="avatar-seen"style="font-size:small;">Hi</p>
+                        </div>
+                        
                     </div>
+                    <div style="width: 30px;"></div>
                 </div>
-
-                <hr>
-
-                <div class="list-part-rows">
-                    <img class="avatar-image" src="">
-                    <h4 class="avatar-name"></h4>
-                    <p class="avatar-title"></p>
-                </div>
+                <hr style="width:100%;text-align:center;">
                 
-                <hr>
-                
+
             </div>
 
             <div class="chat-part">

@@ -22,9 +22,34 @@ body{
     flex-direction: column;
 }
 
+.list-part-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    border-bottom: solid 1px #050505;
+}
+
 .list-part-rows{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.message-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:80%
 }
 
 .avatar-image{
@@ -70,16 +95,23 @@ body{
     overflow: hidden;
 }
 
-/* Chat area */
-
-.edit-chat{
+.list-part-btn{
     background: transparent;
     border: none;
     color: #EF823F;
     font-size: large;
 }
 
-/* Chat header */
+.notify-btn{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: #EF823F;
+    color: #fff;
+}
+
+/* Chat area */
 
 .chat-part {
     border-left: 1px solid #141313;

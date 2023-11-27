@@ -119,9 +119,37 @@ body{
     background-image: url("./img/sanjob.png");
 }
 
-.chat-part h3 {
-    margin: 0;
-    padding: 20px;
+.chat-image{
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-image img{
+    width: 50px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
+    border-radius: 50%; /* Create a circular shape */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    margin-right: 10px;
+}
+
+.chat-image i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.chat-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-height: 50px; /* Set the maximum height */
+    overflow: hidden;
+}
+
+.chat-name{
+    margin: 0; /* Remove default margins */
 }
 
 .chats {
@@ -193,7 +221,7 @@ body{
     border: 1px solid #EDE4D7;
     border-radius: 15px;
     margin-right: 10px;
-    width: 500px
+    width: 650px
 }
 
 .chat-input-form button {
